@@ -1,0 +1,45 @@
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+a:hover {
+  background-color: rgb(96, 198, 230);
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+}
+.nav-link {
+  transition-property: background-color, color;
+  text-shadow: 2px 2px 5px red;
+}
+.hamburger {
+  position: absolute;
+  display: none;
+}
+.hamburger .bar {
+  height: 2px;
+  width: 30px;
+  position: relative;
+  background-color: white;
+  z-index: -1;
+}
